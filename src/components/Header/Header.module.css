@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.logo {
+  font-size: 25px;
+}
+
+.navList {
+  display: flex;
+  gap: 20px;
+}
