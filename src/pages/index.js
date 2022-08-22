@@ -2,6 +2,18 @@ import { Header } from "../components/Header";
 import styles from "/src/styles/Home.module.scss";
 import { Fireworks } from "@fireworks-js/react";
 import { Footer } from "../components/Footer";
+import { Home as HomeComponent } from "/src/components/Home";
+
+export default function Home() {
+  return (
+    <div className={styles.container}>
+      <Header />
+      <Fireworks options={options} style={style}></Fireworks>
+      <HomeComponent />
+      <Footer />
+    </div>
+  );
+}
 
 const options = {
   particles: 200,
@@ -46,13 +58,3 @@ const style = {
   position: "fixed",
   zIndex: -2,
 };
-
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Header />
-      <Fireworks options={options} style={style}></Fireworks>
-      <Footer />
-    </div>
-  );
-}
