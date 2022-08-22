@@ -2,7 +2,16 @@
   display: flex;
   justify-content: center;
   z-index: 999;
+  width: 100%;
+
   p {
+    position: absolute;
     bottom: 0;
+    width: 100%;
+    background: #545454;
+    opacity: 0.3;
+    text-align: center;
+    padding: 5px 0px;
+    margin: 0px !important;
   }
 }
