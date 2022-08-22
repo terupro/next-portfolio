@@ -14,13 +14,13 @@
     gap: 25px;
     .navLink {
       font-size: 20px;
-      transition: all 0.2s ease 0s;
+      transition: all 0.4s ease 0.4s;
       position: relative;
       display: inline-block;
       text-decoration: none;
       &:after {
         position: absolute;
-        bottom: -4px;
+        bottom: -5px;
         left: 0;
         content: "";
         width: 100%;
@@ -28,7 +28,7 @@
         background: #fff;
         transform: scale(0, 1);
         transform-origin: left top;
-        transition: transform 0.3s;
+        transition: transform 0.4s;
       }
       &:hover::after {
         transform: scale(1, 1);

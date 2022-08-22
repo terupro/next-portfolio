@@ -33,7 +33,7 @@ export const Header = () => {
       </div>
       <div className={styles.navLinks}>
         {NAV_LINKS.map((link, index) => (
-          <div className={styles.navLink}>
+          <div key={index} className={styles.navLink}>
             <Link key={index} href={link.href}>
               <a>{link.label}</a>
             </Link>
@@ -41,9 +41,11 @@ export const Header = () => {
         ))}
       </div>
       <div className={styles.navIcons}>
-        {NAV_ICONS.map((icon) => (
-          <div className={styles.navIcon} href={icon.href}>
-            <icon.label></icon.label>
+        {NAV_ICONS.map((icon, index) => (
+          <div key={index} className={styles.navIcon}>
+            <a href={icon.href} target="_blank">
+              <icon.label />
+            </a>
           </div>
         ))}
       </div>
