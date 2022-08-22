@@ -48,6 +48,18 @@ const options = {
     click: true,
     max: 1,
   },
+  sound: {
+    enabled: false,
+    files: [
+      "https://fireworks.js.org/sounds/explosion0.mp3",
+      "https://fireworks.js.org/sounds/explosion1.mp3",
+      "https://fireworks.js.org/sounds/explosion2.mp3",
+    ],
+    volume: {
+      min: 1,
+      max: 2,
+    },
+  },
 };
 
 const style = {
@@ -56,5 +68,5 @@ const style = {
   width: "100%",
   height: "100%",
   position: "fixed",
-  zIndex: -2,
+  zIndex: 50,
 };
