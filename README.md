@@ -1,6 +1,10 @@
 
 ## Image
 <img width="1435" alt="Screen Shot 2022-08-22 at 17 15 07" src="https://user-images.githubusercontent.com/92189386/185873080-23addc5d-7774-45a3-b50d-e248921a4134.png">
+<img width="1435" alt="Screen Shot 2022-08-22 at 17 18 07" src="https://user-images.githubusercontent.com/92189386/185874171-d9f16d1d-b00a-4df7-868d-bc38f1933584.png">
+<img width="1435" alt="Screen Shot 2022-08-22 at 17 18 14" src="https://user-images.githubusercontent.com/92189386/185874244-e80dfabd-7eb8-4c8f-a3da-c524c95b7e93.png">
+<img width="1435" alt="Screen Shot 2022-08-22 at 17 18 18" src="https://user-images.githubusercontent.com/92189386/185874274-9197492a-8d36-43de-9bdb-2e41665663b7.png">
+
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
