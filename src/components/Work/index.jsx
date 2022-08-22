@@ -1,5 +1,10 @@
 import React from "react";
+import { Heading } from "../Heading";
 
 export const Work = () => {
-  return <div>Work</div>;
+  return (
+    <div>
+      <Heading label="Work" />
+    </div>
+  );
 };

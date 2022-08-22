@@ -1,5 +1,10 @@
 import React from "react";
+import { Heading } from "../Heading";
 
 export const About = () => {
-  return <div>About</div>;
+  return (
+    <div>
+      <Heading label={"About"} />
+    </div>
+  );
 };
