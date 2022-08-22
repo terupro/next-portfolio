@@ -3,30 +3,6 @@ import React from "react";
 import { Heading } from "../Heading";
 import styles from "./About.module.scss";
 
-const PROGRAMMING = [
-  "#HTML",
-  "#CSS",
-  "#JavaScript",
-  "#TypeScript",
-  "#React",
-  "#React",
-  "#Next.js",
-  "#Node.js",
-  "#Swift",
-  "#Flutter",
-];
-
-const TOOLS = [
-  "#GitHub",
-  "#Vercel",
-  "#Firebase",
-  "#WorkPress",
-  "#Canva",
-  "#Postman",
-  "#Analytics",
-  "#SearchConsole",
-];
-
 export const About = () => {
   return (
     <div>
@@ -70,3 +46,27 @@ export const About = () => {
     </div>
   );
 };
+
+const PROGRAMMING = [
+  "#HTML",
+  "#CSS",
+  "#JavaScript",
+  "#TypeScript",
+  "#React",
+  "#React",
+  "#Next.js",
+  "#Node.js",
+  "#Swift",
+  "#Flutter",
+];
+
+const TOOLS = [
+  "#GitHub",
+  "#Vercel",
+  "#Firebase",
+  "#WorkPress",
+  "#Canva",
+  "#Postman",
+  "#Analytics",
+  "#SearchConsole",
+];

@@ -1,0 +1,23 @@
+.container {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    .portfolio {
+      width: 500px;
+      height: 300px;
+      display: flex;
+      position: relative;
+      transition: 0.9s all;
+      overflow: hidden;
+      .portfolioImg {
+        border-radius: 20px;
+      }
+      &:hover {
+        transform: scale(1.05, 1.05);
+        transition: 0.9s all;
+      }
+    }
+  }
+}
